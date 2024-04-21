@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Simple login form</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+
+    <link rel="stylesheet" href="style_face.css">
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="images/fav-icon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+    <nav class="navigation">
+        <!--logo------->
+        <a href="index.html" class="logo">H&M</a>
+   
+        <div class="right-elements">
+            <!--search-->
+            <a href="#" class="search"><i class="fas fa-search"></i></a>
+            <!--cart---->
+            <a href="#" class="cart"><i class="fas fa-shopping-bag"></i></a>
+            <!--user---->
+            <a href="#" class="user"><i class="far fa-user"></i></a>
+        </div>
+    </nav>
+
+
+    <form action="main.html">
+        <h1>Login Form</h1>
+        <div class="formcontainer">
+            <hr />
+            <div class="container">
+                <label for="uname"><strong>Username</strong></label>
+                <input type="text" placeholder="Enter Username" name="uname" required>
+                <label for="psw"><strong>Password</strong></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+            </div>
+            <button type="submit"><a href="main.html">Login</a></button>
+            <div class="container" style="background-color: #eee">
+                <label style="padding-left: 15px">
+                    <input type="checkbox" checked="checked" name="remember"> Remember me
+                </label>
+                <span class="psw"><a href="#"> Forgot password?</a></span>
+            </div>
+    </form>
+</body>
+
+</html>
